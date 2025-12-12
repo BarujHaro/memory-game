@@ -1,0 +1,53 @@
+
+@import "./styles/Header.css";
+@import "./styles/CardGrid.css";
+@import "./styles/Card.css";
+
+:root {
+  --bg: #bdcce6;
+    --bg-main:  #ccd7e3;
+    --bg-soft: #e3e8ef; 
+    --bg-header: #4a73ac; 
+
+    --bt: #62acee; 
+    --bt-h: #73bdf6;
+  
+
+    --lose: #e46c6c;
+    --win: #73c4a5;
+    
+    --text-main: #102138;
+    --text-subtle: #29315a;
+    --text-header: #feffff;
+
+    --card: #b6e1f0;
+    --card-h: #8fc3d9; 
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: var(--bg-main);
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: "Press Start 2P", monospace;
+}
+
+button, select, option {
+  font-family: inherit;
+}
+
+
+.app-grid{
+  max-height: 100%;  
+  display: grid;
+  grid-template-rows: auto 1fr;  
+}
+
+@media screen and (min-width: 1024px){
+  .app-grid{
+  min-height: 100vh;  
+  display: grid;
+  grid-template-rows: auto 1fr;  
+}  
+}
