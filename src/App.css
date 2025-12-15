@@ -4,24 +4,24 @@
 @import "./styles/Card.css";
 
 :root {
-  --bg: #bdcce6;
-    --bg-main:  #ccd7e3;
-    --bg-soft: #e3e8ef; 
-    --bg-header: #4a73ac; 
+  --bg: #c7d1b4;
+    --bg-main:  #d4dbc2;
+    --bg-soft:  #e6ecd8; 
+    --bg-header: #5b6f3e;
 
-    --bt: #62acee; 
-    --bt-h: #73bdf6;
+    --bt:  #8fa76a;
+    --bt-h: #9fb87a;
   
 
-    --lose: #e46c6c;
-    --win: #73c4a5;
+    --lose: #c76b6b;
+    --win: #7fa58a;
     
-    --text-main: #102138;
-    --text-subtle: #29315a;
-    --text-header: #feffff;
+    --text-main: #1f2a14;
+    --text-subtle: #3b4a2a;
+    --text-header: #f5f8ef;
 
-    --card: #b6e1f0;
-    --card-h: #8fc3d9; 
+    --card:  #b6c69a;
+    --card-h: #9eb07d;
 }
 
 html, body, #root {
